@@ -169,7 +169,7 @@ public class TheKanyeEncounter : MonoBehaviour {
                break;
             case "Corn [inedible]": if (Log) { Debug.LogFormat("[The Kanye Encounter #{0}] Corn is inedible.", moduleId); } break;
             case "big MIOLK":
-               if (Bomb.GetSerialNumber().Any(x => "B1G".Contains(x)) || Bomb.GetSolvableModuleNames().Contains("Splitting the Loot")) {
+               if (Bomb.GetSerialNumber().Any(x => "B1G".Contains(x)) || Bomb.GetSolvableModuleNames().Contains("Painting")) {
                   Valid[2] = true;
                   if (Log) {
                      Debug.LogFormat("[The Kanye Encounter #{0}] big MIOLK is currently valid.", moduleId);
